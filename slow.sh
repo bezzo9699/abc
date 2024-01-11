@@ -1,5 +1,5 @@
 #!/bin/sh
-REPOS="https://raw.githubusercontent.com/bezzo9699/abc/main/"
+GIT_CMD="https://raw.github.com/bezzo9699/abc/main/"
 ns_domain_cloudflare() {
 	DOMAIN="thekill-slowdns.biz.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
