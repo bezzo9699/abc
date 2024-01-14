@@ -30,7 +30,7 @@ RAMMS=$(free -m | awk 'NR==2 {print $2}')
 KEY="6042674179:AAE_8Jd3b4KIhiLDy1zJ1YhVgFz1q_SQjZI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 REPO="https://raw.githubusercontent.com/bezzo9699/abc/main/"
-CDNF="https://raw.githubusercontent.com/bezzo9699/abc/main"
+CDNF="https://raw.githubusercontent.com/bezzo9699/abc/main/"
 APT="apt-get -y install "
 domain=$(cat /root/domain)
 start=$(date +%s)
