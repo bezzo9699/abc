@@ -3,13 +3,13 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 ns_domain_cloudflare1() {
-DOMAIN=vpnkids.me
+DOMAIN=thekill-store.biz.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.vpnkids.me
-CF_ID=daniel.ka@mhs.amikomsolo.ac.id
-CF_KEY=461db0d8927ae631c7523c3ec1623174d0aba
-echo "vpnkids.me" > /root/domain
+SUB_DOMAIN=${sub}.thekill-store.biz.id
+CF_ID=novanbunder99@gmail.com
+CF_KEY=0b20eeb1c9762917c3aee1143d5a36b1931c0
+echo "thekill-store.biz.id" > /root/domain
 echo $SUB_DOMAIN > /root/domain
 
 set -euo pipefail
