@@ -5,7 +5,7 @@ ns_domain_cloudflare() {
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
 	SUB_DOMAIN=${SUB}."thekill-slowdns.biz.id"
-	NS_DOMAIN=ns.${SUB_DOMAIN}
+	NS_DOMAIN=dns.${SUB_DOMAIN}
 	CF_ID=bezzoperantau9699@gmail.com
         CF_KEY=0b20eeb1c9762917c3aee1143d5a36b1931c0
 	set -euo pipefail
