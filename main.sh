@@ -20,14 +20,14 @@ TANGGAL=$(date '+%Y-%m-%d')
 TIMES="10"
 NAMES=$(whoami)
 IMP="wget -q -O"    
-CHATID="5491480146"
+CHATID="5957445951"
 LOCAL_DATE="/usr/bin/"
 MYIP=$(wget -qO- ipv4.icanhazip.com/ip)
 ISP=$(wget -qO- ipinfo.io/org)
 CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
-KEY="6042674179:AAE_8Jd3b4KIhiLDy1zJ1YhVgFz1q_SQjZI"
+KEY="6473423274:AAHdtWO6kLJAw6Kxoo-yLvQt2I2ldyGJj0Y"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 REPO="https://raw.githubusercontent.com/bezzo9699/abc/main/"
 CDNF="https://raw.githubusercontent.com/bezzo9699/abc/main/"
